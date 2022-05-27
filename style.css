@@ -1,0 +1,58 @@
+body{
+    overflow: hidden;
+}
+
+.firstsection{
+    background-image: url('./images/pattern-bg.png');
+    background-size: cover;
+    padding: 5%;
+}
+.Ipinput{
+    padding: 5px;
+    font-size: 23px;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+.Ipbtn{
+    padding: 20px;
+    border-radius: 0px 15px 15px 0px;
+    position:absolute ;
+}
+.Ipbtn:focus{
+outline: 0;
+border: 0;
+box-shadow: none;
+}
+
+.Ipinput:focus{
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+ }
+
+ .IPdiv{
+    position: relative;
+ }
+
+ .addressDetails{
+     box-shadow: 2px 8px 5px rgb(175, 169, 169);
+     width: 60%;
+    height: 16%;
+    border-radius: 15px ;
+    position: absolute;
+    top: 29%;
+    background-color: white; 
+    text-align: center;
+    z-index: 1 1;
+ }
+
+
+
+ .vl{
+    border-left: 1px solid rgb(214, 208, 208);
+    height: 65px;
+    position: relative;
+    /* left: 50%;
+    margin-left: -3px;*/
+    top: 25%; 
+ }
