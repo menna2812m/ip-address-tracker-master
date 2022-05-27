@@ -20,15 +20,12 @@ btn.addEventListener("click", function(){
 
        
         // }
-        // var lat=response.data.location.lat;
-        // var lng=response.data.location.lng;
-
-        // var urlbeg="https://maps.google.com/maps?q='+lat+','+lng+'&hl=es&z=14&amp;output=embed";
-        // var urlend="&zoom=18&maptype=roadmap";
+        var lat=response.data.location.lat;
+        var lng=response.data.location.lng;
       
-        // console.log(lat);
-        // console.log(lng);
-        // $("iframe").attr("src",urlbeg);
+         var urlbeg="//maps.google.com/maps?q="+lat+","+lng+"&z=15&output=embed";
+
+         $("iframe").attr("src",urlbeg);
 
 
         isp = response.data.isp;
